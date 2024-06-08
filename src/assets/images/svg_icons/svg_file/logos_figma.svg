@@ -1,0 +1,18 @@
+<svg width="10.000000" height="15.000000" viewBox="0 0 10 15" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip571_91">
+			<rect width="10.000000" height="15.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect width="10.000000" height="15.000000" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip571_91)">
+		<path d="M2.5 15C3.87 15 5 13.87 5 12.5L5 10L2.5 10C1.12 10 0 11.12 0 12.5C0 13.87 1.12 15 2.5 15Z" fill="#0ACF83" fill-opacity="1.000000" fill-rule="nonzero"/>
+		<path d="M0 7.5C0 6.12 1.12 5 2.5 5L5 5L5 10L2.5 10C1.12 10 0 8.87 0 7.5Z" fill="#A259FF" fill-opacity="1.000000" fill-rule="nonzero"/>
+		<path d="M0 2.5C0 1.12 1.12 0 2.5 0L5 0L5 5L2.5 5C1.12 5 0 3.87 0 2.5Z" fill="#F24E1E" fill-opacity="1.000000" fill-rule="nonzero"/>
+		<path d="M5 0L7.5 0C8.87 0 10 1.12 10 2.5C10 3.87 8.87 5 7.5 5L5 5L5 0Z" fill="#FF7262" fill-opacity="1.000000" fill-rule="nonzero"/>
+		<path d="M10 7.5C10 8.87 8.87 10 7.5 10C6.12 10 5 8.87 5 7.5C5 6.12 6.12 5 7.5 5C8.87 5 10 6.12 10 7.5Z" fill="#1ABCFE" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+</svg>
