@@ -47,12 +47,11 @@ export const Skills = () => {
                     iconSrc={'nextJs'}
                     title={'Next.js'}
                 />
-
             </FlexWrapper>
         </SectionSkills>
     );
 };
-
+// Strn
 const SectionSkills = styled.section`
     min-height: 50vh;
     background-color: antiquewhite;
