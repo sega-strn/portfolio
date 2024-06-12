@@ -2,13 +2,15 @@ import React from 'react';
 import styled from "styled-components";
 import {SocialHeader} from "../social/Social";
 
-export const Menu = () => {
+
+export const Menu = (props: { menuItems: Array<string> }) => {
     return (
         <StyledMenu>
             <ul>
-                <li><a href="#">lucasviga</a></li>
-                <li><a href="#">education</a></li>
-                <li><a href="#">experience</a></li>
+                {props.menuItems.map((item: string, index: number) => {
+                    return <li key={index}><a href="#">{item}</a></li>
+                })}
+
             </ul>
 
             <SocialHeader/>

@@ -15,13 +15,13 @@ type SkillPropsType = {
 
 export const Skill = (props: SkillPropsType) => {
     return (
-        <StyledSkill>
-            <SkillContainer>
-                <Icon iconSrc={props.iconSrc} width={props.width} height={props.height} viewBox={props.viewBox}/>
-                <SkillTitle>{props.title}</SkillTitle>
-                <SkillText>{props.text}</SkillText>
-            </SkillContainer>
-        </StyledSkill>
+
+        <SkillContainer>
+            <Icon iconSrc={props.iconSrc} width={props.width} height={props.height} viewBox={props.viewBox}/>
+            <SkillTitle>{props.title}</SkillTitle>
+            <SkillText>{props.text}</SkillText>
+
+        </SkillContainer>
     );
 };
 
@@ -29,6 +29,7 @@ const StyledSkill = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 20%;
 
 
 
@@ -46,8 +47,8 @@ const SkillText = styled.p`
 
 `
 const SkillContainer = styled.div`
-    width: 40%;
-
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    
 `

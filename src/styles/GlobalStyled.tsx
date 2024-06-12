@@ -11,7 +11,7 @@ export const GlobalStyled = createGlobalStyle`
 
     body {
         margin: 0;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
         'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
         sans-serif;
         -webkit-font-smoothing: antialiased;
@@ -19,8 +19,17 @@ export const GlobalStyled = createGlobalStyle`
         background-color: black;
     }
 
-    code {
-        font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-        monospace;
+    a {
+        text-decoration: none;
     }
+
+    ul {
+        list-style: none;
+    }
+
+    button {
+        background-color: unset;
+        border: none;
+    }
+
 `

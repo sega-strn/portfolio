@@ -16,46 +16,45 @@ export const Skills = () => {
         <SectionSkills>
 
             <SectionTitle>These are the technologies I’ve been using</SectionTitle>
-            <FlexWrapper wrap={'wrap'} justify={'space-around'}>
-                <SectionSkillContainer justify={'space-around'}>
-                    <Skill
-                        iconSrc={'reactSvg'}
-                        title={'React'}
-                        width={'150px'}
-                        height={'150px'}
+            <FlexWrapper direction={'row'} align={'center'} justify={'space-around'}>
 
-                    />
-                    <Skill
-                        iconSrc={'appSvg'}
-                        title={'App'}
-                        width={'150px'}
-                        height={'150px'}
-                        viewBox={'0 0 18 24'}
-                    />
-                    <Skill
+                <Skill
+                    iconSrc={'reactSvg'}
+                    title={'React'}
+                />
 
-                        iconSrc={'reactNativeSvg'}
-                        title={'React Native'}
-                    />
-                    <Skill
-                        iconSrc={'nextJs'}
-                        title={'Next.js'}
-                    />
-                    <Skill
-                        iconSrc={'nextJs'}
-                        title={'Next.js'}
-                    />
-                    <Skill
-                        iconSrc={'nextJs'}
-                        title={'Next.js'}
-                    />
-                </SectionSkillContainer>
+                <Skill
+                    iconSrc={'appSvg'}
+                    title={'App'}
+                />
+
+                <Skill
+                    iconSrc={'reactNativeSvg'}
+                    title={'React Native'}
+                />
+
+                <Skill
+                    iconSrc={'nextJs'}
+                    title={'Next.js'}
+                />
+
+                <Skill
+                    iconSrc={'nextJs'}
+                    title={'Next.js'}
+                />
+
+                <Skill
+                    iconSrc={'nextJs'}
+                    title={'Next.js'}
+                />
+
             </FlexWrapper>
         </SectionSkills>
     );
 };
 
 const SectionSkills = styled.section`
+    min-height: 50vh;
     background-color: antiquewhite;
 
 `
@@ -63,7 +62,6 @@ const SectionSkills = styled.section`
 const SectionSkillContainer = styled.div<SkillsContainerPropsType>`
     display: flex;
     flex-direction: row;
-    
     min-width: 1220px;
     gap: 50px;
 `

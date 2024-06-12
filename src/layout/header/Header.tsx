@@ -3,13 +3,15 @@ import styled from "styled-components";
 import {Menu} from "../../components/menu/Menu";
 import {FlexWrapper} from "../../components/FlexWrapper";
 
+const items = ['lucasviga', 'education', 'experience']
 export const Header = () => {
     return (
         <StyledHeader>
             <FlexWrapper>
-                <Menu/>
+                <Menu menuItems={items}/>
             </FlexWrapper>
         </StyledHeader>
+        
     );
 };
 
