@@ -22,7 +22,7 @@ export const Works = () => {
                       iconSrc={'githubSVG'}
                       width={'20px'}
                       height={'20px'}
-                      
+
                 />
                 <Work title={'Project Tile goes Landing'}
                       text={'This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content'}
@@ -48,5 +48,5 @@ export const Works = () => {
 
 const StyledWorks = styled.section`
     min-height: 100vh;
-    background-color: #1A1AE0;
+    
 `

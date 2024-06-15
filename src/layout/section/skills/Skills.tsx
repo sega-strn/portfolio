@@ -54,8 +54,6 @@ export const Skills = () => {
 // Strn
 const SectionSkills = styled.section`
     min-height: 50vh;
-    background-color: antiquewhite;
-
 `
 
 const SectionSkillContainer = styled.div<SkillsContainerPropsType>`

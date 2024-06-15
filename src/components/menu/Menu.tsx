@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from "styled-components";
-import {SocialHeader} from "../social/Social";
+import {theme} from "../../styles/Theme";
 
 
 export const Menu = (props: { menuItems: Array<string> }) => {
@@ -8,32 +8,41 @@ export const Menu = (props: { menuItems: Array<string> }) => {
         <StyledMenu>
             <ul>
                 {props.menuItems.map((item: string, index: number) => {
-                    return <li key={index}><a href="#">{item}</a></li>
+                    return <ListItem key={index}><Link href="#">
+                        {item}
+                    </Link></ListItem>
                 })}
-
             </ul>
-
-            <SocialHeader/>
 
         </StyledMenu>
     );
 };
 const StyledMenu = styled.nav`
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 80px;
 
-    a {
-        color: #B292FF;
-        text-decoration: none;
-    }
+    align-items: center;
+
 
     ul {
         display: flex;
         justify-content: center;
         list-style: none;
         gap: 42px;
+    }
+`
+const Link = styled.a`
+    color: ${theme.colors.accent};
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+`
+const ListItem = styled.li`
+    position: relative;
+    transition: transform 0.3s ease;
+
+    &:hover {
+        transform: scale(1.2)
+
     }
 `
 
